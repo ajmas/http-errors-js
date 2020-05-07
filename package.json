@@ -1,6 +1,6 @@
 {
   "name": "http-errors-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provide discreate error classes for HTTP related errors",
   "homepage": "https://github.com/ajmas/http-errors-js",
   "main": "dist/index.js",

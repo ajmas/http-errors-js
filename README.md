@@ -52,8 +52,8 @@ Javscript too, just without the types.
 
 To add a new error type:
 
-  - update the [generator/errors.tsv](generator/errors.tsv) file with
-    new error.
+  - update the [errors.tsv](generator/data/errors.tsv) file in the
+    generator with new error.
   - Run `npm run generate`.
   - Run `npm run build` to finish up and create the dist files.
 
