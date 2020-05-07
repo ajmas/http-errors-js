@@ -1,7 +1,8 @@
 {
   "name": "http-errors-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide discreate error classes for HTTP related errors",
+  "homepage": "https://github.com/ajmas/http-errors-js",
   "main": "dist/index.js",
   "scripts": {
     "generate": "ts-node generator",
@@ -9,6 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andre-John Mas <andrejohn.mas@gmail.com>",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ajmas/http-errors-js"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^13.13.5",
