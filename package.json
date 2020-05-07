@@ -1,7 +1,7 @@
 {
-  "name": "web-errors-js",
+  "name": "http-errors-js",
   "version": "1.0.0",
-  "description": "Provide dicreate error class for HTTP errors",
+  "description": "Provide discreate error classes for HTTP related errors",
   "main": "dist/index.js",
   "scripts": {
     "generate": "ts-node generator",
