@@ -5,6 +5,23 @@ use in HTTP applications. They are provided in such a way that they
 can be thrown without needing to know about the https status code at
 the non HTTP level.
 
+This had originally been something developed for my own projects, but
+I decided to make some improvements and make it public.
+
+Some additional goals:
+
+  - avoid dependencies on other packages where possible
+  - keep it simple
+  - have all error types documented and easily discoverable
+
+It is possible that multiple errors result in the same HTTP error code,
+which is fine, if this makes the error condition clearer in the code.
+
+Note, a number of the initial error types were inspired by those in
+[restify-error](https://www.npmjs.com/package/restify-errors). It may be
+worth considering that project, if you see limitations or design
+decisions you don't like here - though feedback is always appreciated.
+
 ## Example Usage
 
 An example use is in an express project:
